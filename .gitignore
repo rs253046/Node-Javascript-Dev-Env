@@ -25,7 +25,7 @@ coverage
 
 # Bower dependency directory (https://bower.io/)
 bower_components
-.editorconfig
+
 # node-waf configuration
 .lock-wscript
 
