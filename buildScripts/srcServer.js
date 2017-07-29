@@ -23,6 +23,30 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/users', (req, res) => {
+  res.json([{
+      "id": 1,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob@gmail.com"
+    },
+
+    {
+      "id": 2,
+      "firstName": "Rahul",
+      "lastName": "Singh",
+      "email": "rahul@gmail.com"
+    },
+
+    {
+      "id": 3,
+      "firstName": "Tina",
+      "lastName": "Lee",
+      "email": "tina@gmail.com"
+    }
+  ]);
+});
+
 app.listen(port, function(err) {
   if (err) {
     console.info(err);
@@ -30,4 +54,3 @@ app.listen(port, function(err) {
     open('http://localhost:' + port);
   }
 });
-
