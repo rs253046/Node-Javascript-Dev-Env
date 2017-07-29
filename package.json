@@ -40,7 +40,6 @@
         "html-webpack-plugin": "2.22.0",
         "jsdom": "9.8.0",
         "json-schema-faker": "0.3.6",
-        "jsosn-server": "0.8.22",
         "localtunnel": "1.8.1",
         "mocha": "3.1.2",
         "nock": "8.1.0",
