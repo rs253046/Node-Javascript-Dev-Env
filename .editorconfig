@@ -11,7 +11,7 @@ tab_width = 2
 ; max_line_length = 2
 spaces_around_operators =true
 spaces_around_brackets = true
-indent_brace_style = true
+; indent_brace_style = true
 
 
 [*.md]
