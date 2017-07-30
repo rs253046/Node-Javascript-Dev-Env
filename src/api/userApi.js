@@ -1,4 +1,4 @@
-import 'whatwg-fetch';
+// import 'whatwg-fetch';
 import getBaseUrl from './baseUrl';
 export function getUser() {
   return get('users');

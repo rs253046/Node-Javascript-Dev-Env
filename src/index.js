@@ -1,5 +1,5 @@
 // import numeral from 'numeral';
-// import './index.css';
+import './index.css';
 import {
   getUser,
   deleteUser
@@ -10,7 +10,7 @@ import {
 // // debugger;
 // console.log('I would pay', courseValue, 'for this awesome course!') // eslint-disable-line no-console
 
-
+console.info('sdf');
 getUser().then(result => {
   let usersBody = "";
   result.forEach(user => {
